@@ -5,7 +5,7 @@ using namespace std;
 
 void czytaj_dane(int &n, int X[], int Y[]) {
 	n = 11;
-	while (n > 10 && n < 1) {
+	while (n > 10) {
 		cout << "Podaj rozmiat tablicy (maksymalnie 10 elemntowa): ";
 		cin >> n;
 	}
